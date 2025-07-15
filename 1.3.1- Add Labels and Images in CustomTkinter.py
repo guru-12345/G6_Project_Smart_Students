@@ -2,13 +2,13 @@
 
 # 🔍 Hint 1: Use CTkLabel to create the label.
 # 🔍 Hint 2: Set text="Message Encrypter", font=("Cascadia Code SemiBold", 20, "bold"), text_color="white", fg_color=background.
-# 🔍 Hint 3: Use .pack(side="left", padx=(10,0)) to place the label with some left padding.
+# 🔍 Hint 3: Use .pack(side="left", padx=(100,0)) to place the label with some left padding.
 
 # Task2: Display an image on the top frame using CTkLabel.
 
 # 🔍 Hint 1: Use CTkImage to load and resize the image. Use: Image.open("OIS.png"), size=(100, 100)
 # 🔍 Hint 2: Use CTkLabel to place the image. Set image=your_image, text="", fg_color=background
-# 🔍 Hint 3: Use .pack(side="left", padx=(150, 10)) to position the image with proper spacing.
+# 🔍 Hint 3: Use .pack(side="left", padx=(10, 10)) to position the image with proper spacing.
 
 
 import customtkinter as ctk
