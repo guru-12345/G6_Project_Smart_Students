@@ -8,7 +8,7 @@
 
 #  Hint 1: Use CTkFrame and set its parent to middle_frame.
 #  Hint 2: Set fg_color=background to match the window color.
-#  Hint 3: Use .pack(side="right", padx=(5, 10), fill="both", expand=True) to position and resize the frame properly.
+#  Hint 3: Use .pack(side="left", padx=(5, 25), fill="both") to position and resize the frame properly.
 
 
 # Task 2: Add a Textbox to Type Your Message inside right_middle frame
@@ -57,7 +57,7 @@ orchids.pack(side="left", padx=(70, 10))
 
 # Middle frame content - split into left and right
 left_middle = ctk.CTkFrame(middle_frame, fg_color=frame_background, width=260)
-left_middle.pack(side="left", padx=(10, 5), fill="both")
+left_middle.pack(side="left", padx=(25, 5), fill="both")
 
 #Create a right_middle frame here
 
