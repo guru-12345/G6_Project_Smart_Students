@@ -38,7 +38,7 @@ bottom_frame = ctk.CTkFrame(root, fg_color=frame_background, height=100)
 bottom_frame.pack(fill="x")
 
 
-logo = ctk.CTkImage(Image.open('logo.png'), size=(100, 100)) 
+logo = ctk.CTkImage(Image.open('logo.png'), size=(120, 120)) 
 orchids_image = ctk.CTkImage(Image.open('OIS.png'), size=(100, 100))
 
 sender = Image.open('logo.jpg') # Open the image 'logo.jpg' to use it in the program
@@ -50,7 +50,7 @@ logo_image = ctk.CTkLabel(top_frame, image=logo, text="", fg_color=frame_backgro
 logo_image.pack(side="left", padx=(10, 0))
 
 message_label = ctk.CTkLabel(top_frame, text="Message Encrypter", font=("Cascadia Code SemiBold", 20, "bold"), fg_color=frame_background, text_color="white")
-message_label.pack(side="left", padx=(80,0))
+message_label.pack(side="left", padx=(70,0))
 
 orchids = ctk.CTkLabel(top_frame, image=orchids_image, text="", fg_color=frame_background)
 orchids.pack(side="left", padx=(70, 10))
