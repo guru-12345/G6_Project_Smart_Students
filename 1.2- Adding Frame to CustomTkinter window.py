@@ -3,11 +3,11 @@
 # It has a background color, a fixed height of 80, and a small gap (pady) below it
 # 'fill="x"' means it stretches across the width of the window
 
-#Task1:- Create the middle frame
+# Task1:- Create the middle frame
 # 👉 Hint: Use CTkFrame with fg_color as background
 # 👉 Hint: Use pack() with fill="both" and expand=True so it stretches and grows
 
-#Task2:-Create the bottom frame
+# Task2:-Create the bottom frame
 # 👉 Hint: Set height=100 when creating the frame
 # 👉 Hint: Use pack() with fill="x" so it stretches across the bottom
 import customtkinter as ctk
