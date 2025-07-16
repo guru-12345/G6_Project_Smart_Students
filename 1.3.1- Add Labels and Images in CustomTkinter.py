@@ -1,19 +1,20 @@
-# Line no 39 loads and resizes the logo.png image to 100×100 pixels using CTkImage for use in a CustomTkinter app.
+# Line no 40 loads and resizes the logo.png image to 100×100 pixels using CTkImage for use in a CustomTkinter app.
 
-# Line 45 & 46 creates a label (CTkLabel) in the top_frame to display the logo image without any text and with a 
+# Line 46 & 47 creates a label (CTkLabel) in the top_frame to display the logo image without any text and with a 
 # frame_background color, then places it on the left side with padding.
 
 # Task1: Create a label that says "Message Encrypter" on the top frame.
 
-# 🔍 Hint 1: Use CTkLabel to create the label.
-# 🔍 Hint 2: Set text="Message Encrypter", font=("Cascadia Code SemiBold", 20, "bold"), text_color="white", fg_color=background.
-# 🔍 Hint 3: Use .pack(side="left", padx=(80,0)) to place the label with some left padding.
+#  Hint - 1: Use CTkLabel to create the label.
+#  Hint - 2: Set text="Message Encrypter", font=("Cascadia Code SemiBold", 20, "bold"), text_color="white", fg_color=background.
+#  Hint - 3: Use .pack(side="left", padx=(80,0)) to place the label with some left padding.
+#  Hint - 4: Store the label object in a variable named message_label. 
 
 # Task2: Display an image on the top frame using CTkLabel.
 
-# 🔍 Hint 1: Use CTkImage to load and resize the image. Use: Image.open("OIS.png"), size=(100, 100)
-# 🔍 Hint 2: Use CTkLabel to place the image. Set image=your_image, text="", fg_color=background
-# 🔍 Hint 3: Use .pack(side="left", padx=(70, 10)) to position the image with proper spacing.
+# Hint - 1: Use CTkLabel with image=orchids_image, text="", and fg_color=frame_background.
+# Hint - 2: Position it with .pack(side="left", padx=(70, 10)).
+# Hint - 3: Store the label object in a variable named orchids.
 
 
 import customtkinter as ctk
