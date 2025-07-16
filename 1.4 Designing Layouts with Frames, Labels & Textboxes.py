@@ -6,12 +6,12 @@
 
 # Task1: Create a right-side frame inside the middle_frame similar to left_middle frame.
 
-# 🔍 Hint 1: Use CTkFrame and set its parent to middle_frame.
-# 🔍 Hint 2: Set fg_color=background to match the window color.
-# 🔍 Hint 3: Use .pack(side="right", padx=(5, 10), fill="both", expand=True) to position and resize the frame properly.
+#  Hint 1: Use CTkFrame and set its parent to middle_frame.
+#  Hint 2: Set fg_color=background to match the window color.
+#  Hint 3: Use .pack(side="right", padx=(5, 10), fill="both", expand=True) to position and resize the frame properly.
 
 
-#Task 2: Add a Textbox to Type Your Message inside right_middle frame
+# Task 2: Add a Textbox to Type Your Message inside right_middle frame
 #       You need to create a box where you can type a secret message.
 #       🔹 Name it: Data_entry
 #       🔹 Size: width = 250, height = 200
