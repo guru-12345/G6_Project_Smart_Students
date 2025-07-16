@@ -13,7 +13,7 @@
 # Task2: Display an image on the top frame using CTkLabel.
 
 # Hint - 1: Use CTkLabel with image=orchids_image, text="", and fg_color=frame_background.
-# Hint - 2: Position it with .pack(side="left", padx=(10, 20)).
+# Hint - 2: Position it with .pack(side="left", padx=(70, 10)).
 # Hint - 3: Store the label object in a variable named orchids.
 
 
