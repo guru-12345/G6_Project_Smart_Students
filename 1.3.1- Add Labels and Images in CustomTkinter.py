@@ -7,13 +7,13 @@
 
 #  Hint - 1: Use CTkLabel to create the label.
 #  Hint - 2: Set text="Message Encrypter", font=("Cascadia Code SemiBold", 20, "bold"), text_color="white", fg_color=background.
-#  Hint - 3: Use .pack(side="left", padx=(80,0)) to place the label with some left padding.
+#  Hint - 3: Use .pack(side="left", padx=(70,0)) to place the label with some left padding.
 #  Hint - 4: Store the label object in a variable named message_label. 
 
 # Task2: Display an image on the top frame using CTkLabel.
 
 # Hint - 1: Use CTkLabel with image=orchids_image, text="", and fg_color=frame_background.
-# Hint - 2: Position it with .pack(side="left", padx=(70, 10)).
+# Hint - 2: Position it with .pack(side="left", padx=(10, 20)).
 # Hint - 3: Store the label object in a variable named orchids.
 
 
@@ -37,7 +37,7 @@ bottom_frame = ctk.CTkFrame(root, fg_color=frame_background, height=100)
 bottom_frame.pack(fill="x")
 
 ##########       Loading Images      ############
-logo = ctk.CTkImage(Image.open('logo.png'), size=(100, 100))  #Open the image and set its size
+logo = ctk.CTkImage(Image.open('logo.png'), size=(120, 120))  #Open the image and set its size
 
 #load image for task 2 
 
