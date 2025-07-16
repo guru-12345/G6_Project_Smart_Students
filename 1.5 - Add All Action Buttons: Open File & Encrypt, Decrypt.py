@@ -67,10 +67,10 @@ orchids.pack(side="left", padx=(10, 20))
 
 # Middle frame content - split into left and right
 left_middle = ctk.CTkFrame(middle_frame, fg_color=frame_background, width=260)
-left_middle.pack(side="left", padx=(10, 5), fill="both")
+left_middle.pack(side="left", padx=(25, 5), fill="both")
 
 right_middle = ctk.CTkFrame(middle_frame, fg_color=frame_background)
-right_middle.pack(side="right", padx=(5, 10), fill="both", expand=True)
+right_middle.pack(side="left", padx=(5, 25), fill="both")
 
 PhotoLabel = ctk.CTkLabel(left_middle, image=label_image, text="", width=247, height=247, fg_color="white")
 PhotoLabel.pack(pady=10)
