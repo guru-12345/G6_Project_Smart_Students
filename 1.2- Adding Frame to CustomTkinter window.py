@@ -12,7 +12,7 @@
 # 👉 Hint: Use pack() with fill="x" so it stretches across the bottom
 import customtkinter as ctk
 
-background = "grey" 
+background = "dimgrey" 
 root = ctk.CTk()
 root.geometry("600x500")
 root.resizable(False, False)
