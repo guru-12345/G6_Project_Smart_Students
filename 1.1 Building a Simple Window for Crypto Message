@@ -1,14 +1,11 @@
-#Task 1: change the background color of window to "dimgrey"
-#Task 2: Change the size of the window to "600x450"
-#Task 3: Change th title of window to "Crypto Message"
+#Task 1: Change the size of the window to "600x450"
+#Task 2: Change th title of window to "Crypto Message"
 
 import customtkinter as ctk       #Import the customtkinter module as ctk.
 
-backgroung = "Black"
 root = ctk.CTk()                  #Create the main application window using root = ctk.CTk().
 root.geometry("400x400")          #Set the window size to 600x450 using root.geometry().
 root.resizable(False, False)      # Disables window resizing (both horizontally and vertically)
-root.config(bg= background)       # Sets the background color of the main window using the 'background' variable
 root.title("Message Encoder")     #Set the window title to "Message Encoder".
 
 root.mainloop()                   #Use .mainloop() to keep the window running.
