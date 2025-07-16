@@ -5,7 +5,7 @@ import customtkinter as ctk       #Import the customtkinter module as ctk.
 
 root = ctk.CTk()                  #Create the main application window using root = ctk.CTk().
 root.geometry("400x400")          #Set the window size to 600x450 using root.geometry().
-root.resizable(False, False)      # Disables window resizing (both horizontally and vertically)
+root.resizable(False, False)      #Disables window resizing (both horizontally and vertically)
 root.title("Message Encoder")     #Set the window title to "Message Encoder".
 
 root.mainloop()                   #Use .mainloop() to keep the window running.
