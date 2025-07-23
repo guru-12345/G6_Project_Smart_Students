@@ -4,9 +4,9 @@
 
 #Task 1:Uncomment line 68, Use lsb.reveal(filepath) to extract the hidden message from the image
 #Task 2:Uncomment line 69 & Clear any previous text in the message entry box using Data_entry.delete(1.0, "end")
-#Task 3:Uncomment line 70-73 & If a message was found, insert it in the text box and show success message
+#Task 3:Uncomment lines 70-72 & If a message was found, insert it in the text box and show a success message
 #Task 4:Uncomment line 75 & If something goes wrong, show an error message saying no message was found
-#Task 5:Uncomment line 78, Show a warning message if no image file is selected
+#Task 5:Uncomment line 78. Show a warning message if no image file is selected
 
 import customtkinter as ctk
 from PIL import Image, ImageTk
