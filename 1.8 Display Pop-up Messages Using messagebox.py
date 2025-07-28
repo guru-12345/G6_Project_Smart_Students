@@ -1,6 +1,6 @@
-# On line 29 get the message from the text box 
+# On line 32 get the message from the text box 
 # (starting from line 1, char 0 to the end)
-# On line 39 show a warning if no image is selected or message is missing.
+# On line 41 show a warning if no image is selected or message is missing.
 
 #Task 1: Uncomment line 36 & write the code to hide the message 
 #        in the image using:lsb.hide(file_path,data)
